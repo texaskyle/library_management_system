@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+/* paragraph one */
+.one{
+    line-height: 1.5em;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+a{
+    font-size: 40px;
+    text-decoration: none;
+    text-decoration: line-through;
+}

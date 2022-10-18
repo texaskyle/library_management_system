@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+   min-height: 100vh;
+   color: green;
+   font-size: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.big-img{
+    width: 100%;
+    background:url("../images/big\ image.JPG");
+    /* background-size: contain; */
+    /* background-size: cover; */
+    background-position: center;
+    background-attachment: fixed;
+}
+.small-img{
+    background:url("../images/small\ image.jpg") ;
+    background-attachment: fixed;
+}
+.folder-img{
+    background:url("../images/images\ \(1\).jfif") ;
+    background-repeat: no-repeat;
+    background-position: 20% 50%;
+}

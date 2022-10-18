@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+}
+.banner{
+    background: url(..//images/big\ image.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/big\ image.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.kyle{
+    background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 12, 1) 35%, rgba(0, 212, 255, 1) 100%), url(../images/iphone\ pic.jpg);
+}
+
+
+
+/* div{
+    width: 150px;
+    height: 150px;
+    margin: 5px;    
+}
+.one{
+    background: linear-gradient(to right ,red,green);
+}
+.two{
+    background: linear-gradient(to top ,red,green,blue, yellow);
+}
+.three{
+    background: linear-gradient(150deg ,red,green);
+}
+.four{
+    background: linear-gradient(to right ,red,green);
+}
+.five{
+     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+}
+.six{
+    background: linear-gradient(to right ,red,green);
+} */

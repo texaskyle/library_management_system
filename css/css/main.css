@@ -1,0 +1,44 @@
+/* selecting an id */
+#main{
+    color: green;
+    background-color: black;
+}
+#sub-heading{
+    color: red;
+    background-color: blue;
+}
+
+/* selecting a class */
+.green{
+    color: green;
+    background-color: black;
+    
+}
+.red{
+    color: red;
+    background-color: blue;
+}
+
+/* referencing the colors the one with both the id and the class */
+#mainColor{
+    font-size: 40px;
+    font-style: italic;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+/* using span  */
+.span1{
+    color: aqua;
+}
+.span2{
+    color: yellow;
+    text-transform: uppercase;
+}
+/* styling the body */
+body{
+    color:brown;
+    /* line-height: 1.5em; */
+    font-family: monospace;
+    border: 3px solid black;
+}
