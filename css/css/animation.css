@@ -1,0 +1,84 @@
+div {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    color: white;
+}
+.transition {
+    background: red;
+    transition: all 2s linear;
+}
+.transition:hover {
+    background: yellow;
+    transform: translateX(100px);
+}
+.animation {
+    background: blue;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    /* the short way of doing the above code */
+    animation: move 5s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(20px);
+    }
+    50% {
+        transform: translateX(100px);
+        background: red;
+    }
+    75%{
+        transform: translateX(-200px);
+        background: yellow;
+        color: black;
+    }
+    100%{
+        transform: translateX(20px);
+        background-color: grey;
+    }
+}
+
+.header {
+    width: 300px;
+    background: blue;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    box-sizing: border-box;
+    animation-name: header;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes header {
+    0%{
+        font-style: italic;
+        transform: translateX(20px);
+        background-color: rgba(0, 0, 0, 0.514);
+        font-size: 16px;
+    }
+    25%{
+        background-color: brown;
+        transform: translateX(100px);
+        font-size: 20px;
+    }
+    50%{
+        background-color: yellow;
+        transform: translateX(400px);
+        color: black;
+        font-size: 16px;
+    }
+    75%{
+        background-color: pink;
+        transform: translateX(600px);
+        font-size: 20px;
+    }
+    100%{
+        background-color: red;
+        transform: translateX(800px);
+        font-size: 16px;
+    }
+}

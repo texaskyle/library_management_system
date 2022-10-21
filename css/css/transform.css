@@ -1,0 +1,33 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 15px;
+    /* this is appling transition in the div and how long it will take */
+    transition: all 1s;
+}
+div:hover {
+    /* in transforming translate we need to move the element either in x or y of the screen */
+    transform: translateX(100px);
+}
+.ease {
+    /* slow start, fast, slow end */
+    transition: all 2s ease;
+    transition-timing-function: ease;
+}
+.linear {
+/* linear have the same speed start to end */
+    transition-timing-function: linear;
+}
+.ease-in {
+    /* it has slow start */
+    transition-timing-function: ease-in;
+}
+.ease-out {
+    /* it has a slow end */
+    transition-timing-function: ease-out;
+}
+.ease-in-out {
+    /* slow start, fast, slow end */
+    transition-timing-function: ease-in-out;
+}

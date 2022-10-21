@@ -1,0 +1,19 @@
+p:hover {
+    font-size: 32px;
+    background-color: red;
+}
+
+a:link {
+    color: grey;
+}
+a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blue;
+}
+a:visited {
+    color: red;
+}
+a:active {
+    color: green;
+}
