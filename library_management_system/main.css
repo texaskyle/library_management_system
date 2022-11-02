@@ -1,0 +1,312 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+
+/*---------------------------------------------------my css................-------------------------------*/
+.wrapper{
+    height: 567.8px;
+    width: 1241.5px;
+    /* background-color: blue; */
+}
+
+header{
+    height: 100px;
+    width: 1241.5px;
+    background-color: #000;
+}
+
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+nav {
+    float: right;
+    padding: 20px;
+}
+nav ul li  {
+    display: inline-block;
+    line-height: 60px;
+}
+
+/* library logo image */
+#libraryLogo {
+    height: 100px;
+    width: 200px;
+    margin-left: 2px;
+    float: left;
+}
+.main_heading {
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.main_heading :hover{
+    color: red;
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+
+
+
+/* ----------------------styling the section part---------------------------------- */
+section {
+    height: 420px;
+    width: 1241.5px;
+    background-color: grey;
+    background-image: url(./images/background\ library\ image.jfif);
+} 
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: rgba(214, 85, 85, 0.507);
+    color: white;
+    text-align: center;
+    align-items: center;
+    border-style: hidden;
+}
+
+.box h1:hover{
+    /* color: red; */
+    font-size: 30px;
+}
+
+
+
+
+footer {
+    height: 97.8px;
+    width: 1241.5px;
+    background-color: black;
+}
+
+
+
+
+
+
+/* ---------------------------------student login----------------------------------------- */
+.student_login {
+    height: 420px;
+        width: 1241.5px;
+        background-color: grey;
+        background-image: url(./images/student\ login\ image.webp);
+}
+.student_box {
+    text-align: center;
+    color: white;
+}
+input {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-style: oblique;
+    cursor: pointer;
+    border-style:hidden ;
+    text-align: center;
+}
+button  {
+    height: 30px;
+    width: 50px;
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 20%;
+}
+button:hover {
+    height: 40px;
+    width: 60px;
+}
+
+/* ---------------------------------registration ----------------------------------------- */
+.registration {
+    background-image: url(./images/registration\ background\ image.jfif);
+}
+
+/* the input fields of the registration form */
+.registrationForm {
+    height: 400px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.registrationForm input{
+    width: 300px;
+}
